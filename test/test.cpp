@@ -5,9 +5,9 @@ int main()
 	setlocale(LC_ALL, "");
 	int a;
 	int b;
-	cout << "Введите первое число:" << endl;
+	cout << "First number:" << endl;
 	cin >> a;
-	cout << "Введите второе число:" << endl;
+	cout << "Second number:" << endl;
 	cin >> b;
-	cout << "Ответ: " << a + b;
+	cout << "Answer: " << a + b;
 }
